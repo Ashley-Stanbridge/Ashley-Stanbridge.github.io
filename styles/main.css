@@ -11,6 +11,7 @@ h1 {
 nav li {
     display:inline;
     text-align: left;
+    padding-right: 10px;
     }
 nav {
     text-decoration: none;
@@ -34,3 +35,30 @@ nav {
       font-family: times; 
       font-size: 15;
     }
+
+    li input {
+      display: none;
+    }
+
+    li.edit span {
+      display: none;
+    }
+
+    li.edit input {
+      display: initial;
+    }
+
+
+    li {
+      list-style-type: none;
+
+    }
+
+    .checklist li {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+
+
+
+    
