@@ -1,7 +1,14 @@
 
+.home {
+  height: 100%;
+  background: url(bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
 body {
   text-align: center;
 }
+
 
 h1 {
  text-align: center;
@@ -58,7 +65,12 @@ nav {
       margin-bottom: 10px;
       padding-bottom: 10px;
     }
+    .home h1 {
+      color: white;
+    }
 
-
+.home p {
+  color: white;
+}
 
     
