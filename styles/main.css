@@ -88,6 +88,7 @@ nav a {
     font-size: 3vw;
     font-weight: bold;
     padding: 0 0 0 10px;
+    color: black;
 }
 
 nav a:hover {
@@ -109,12 +110,6 @@ font-weight: bold;
 
 }
 
-.footerlinks li {
-    text-decoration: none;
-    
-
-}
-
 .bio p {
     width: 50em;
     display: right;
@@ -127,3 +122,14 @@ font-weight: bold;
     padding: 15px;
     float: left;
 }
+
+body {
+    background-color: #f4f1f1;
+}
+
+.blogs {
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 170px;
+}
+
