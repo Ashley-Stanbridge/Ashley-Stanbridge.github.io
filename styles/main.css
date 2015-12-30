@@ -71,7 +71,59 @@ p {
     padding: 10px;
 }
 
-h1 {
+header h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 10px;
+
+    
+}
+
+.navrow {
     text-align: center;
 }
 
+nav a {
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+h2 {
+font-family: 'Quicksand', sans-serif;
+font-size: 4.5vw;
+text-decoration: none;
+font-weight: bold;
+}
+
+.ash {
+    padding-left: 10px;
+    max-width: 100%
+    height: auto;
+    border-radius: 300px
+
+}
+
+.footerlinks li {
+    text-decoration: none;
+    
+
+}
+
+.bio p {
+    width: 50em;
+    display: right;
+    padding-left: 200px;
+    padding-bottom: 200px;    }
+
+.social {
+    height: 50px;
+    width: auto;
+    padding: 15px;
+    float: left;
+}
