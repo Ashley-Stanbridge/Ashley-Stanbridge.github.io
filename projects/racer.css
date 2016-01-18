@@ -1,0 +1,21 @@
+h1 {
+font-family: 'Quicksand', sans-serif;
+font-size: 4.5vw;
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+}
+
+
+.race_table1 td{
+  
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.race_table1 td.active1, td.active2 {
+  background-color: black;
+}
+
