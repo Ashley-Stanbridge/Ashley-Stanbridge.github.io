@@ -92,7 +92,7 @@ nav a {
 }
 
 nav a:hover {
-    color: purple;
+    color: #66ffff;
 }
 
 h2 {
@@ -106,15 +106,16 @@ font-weight: bold;
     padding-left: 10px;
     max-width: 100%
     height: auto;
-    border-radius: 300px
+    border-radius: 300px;
+    float: left;
 
 }
 
 .bio p {
-    width: 50em;
+    width: 100%;
     display: right;
-    padding-left: 200px;
-    padding-bottom: 200px;    }
+   
+     }
 
 .social {
     height: 50px;
@@ -124,7 +125,7 @@ font-weight: bold;
 }
 
 body {
-    background-color: #f4f1f1;
+    background-color: white;
 }
 
 .blogs {
@@ -133,3 +134,10 @@ body {
     padding-left: 170px;
 }
 
+.bio {
+   margin-top: 25px;
+    width: 800px;
+    float: right;
+    border-radius: 20px;
+    box-shadow: -10px -1px 20px rgba(100,100,100,.8);
+}
